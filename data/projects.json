@@ -1,0 +1,91 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "title": "Mealgo",
+      "description": "AI 기반 식단 추천 서비스로 사용자의 영양 정보와 선호도를 분석하여 최적의 식단을 제안합니다.",
+      "image": "/projects/mealgo.jpg",
+      "tags": ["React", "Node.js", "AI/ML", "MongoDB"],
+      "github": "https://github.com",
+      "link": "https://mealgo.com"
+    },
+    {
+      "id": 2,
+      "title": "너어디야",
+      "description": "위치 기반 친구 찾기 애플리케이션으로 실시간 위치 공유와 만남의 약속을 쉽게 관리할 수 있습니다.",
+      "image": "/projects/neoediya.jpg",
+      "tags": ["React Native", "Firebase", "Location API", "TypeScript"],
+      "github": "https://github.com",
+      "link": "https://neoediya.com"
+    },
+    {
+      "id": 3,
+      "title": "UnderMap",
+      "description": "지하철 역 주변 음식점, 카페, 편의점 등의 정보를 지도로 표시하고 추천합니다.",
+      "image": "/projects/undermap.jpg",
+      "tags": ["Next.js", "Mapbox", "Python", "PostgreSQL"],
+      "github": "https://github.com",
+      "link": "https://undermap.com"
+    }
+  ],
+  "other": [
+    {
+      "id": 4,
+      "title": "Portfolio Website",
+      "description": "반응형 포트폴리오 웹사이트",
+      "tags": ["Next.js", "Tailwind CSS"]
+    },
+    {
+      "id": 5,
+      "title": "Weather App",
+      "description": "실시간 날씨 정보 애플리케이션",
+      "tags": ["React", "OpenWeather API"]
+    },
+    {
+      "id": 6,
+      "title": "Chat Application",
+      "description": "실시간 메시지 채팅 앱",
+      "tags": ["Socket.io", "Express", "React"]
+    },
+    {
+      "id": 7,
+      "title": "E-commerce Platform",
+      "description": "온라인 쇼핑 플랫폼",
+      "tags": ["Next.js", "Stripe", "PostgreSQL"]
+    },
+    {
+      "id": 8,
+      "title": "Todo List Manager",
+      "description": "효율적인 일정 관리 도구",
+      "tags": ["React", "Redux", "Firebase"]
+    },
+    {
+      "id": 9,
+      "title": "Video Streaming",
+      "description": "비디오 스트리밍 플랫폼",
+      "tags": ["React", "WebRTC", "Node.js"]
+    }
+  ],
+  "values": [
+    {
+      "icon": "Users",
+      "title": "사용자 중심",
+      "description": "항상 사용자의 관점에서 생각하고 최고의 경험을 제공하기 위해 노력합니다."
+    },
+    {
+      "icon": "Zap",
+      "title": "빠른 성능",
+      "description": "빠른 로딩 속도와 부드러운 인터랙션으로 사용자 만족도를 높입니다."
+    },
+    {
+      "icon": "Code",
+      "title": "깔끔한 코드",
+      "description": "가독성이 높고 유지보수하기 쉬운 코드를 작성합니다."
+    },
+    {
+      "icon": "Heart",
+      "title": "협력과 소통",
+      "description": "팀원들과 적극적으로 소통하며 함께 성장합니다."
+    }
+  ]
+}
