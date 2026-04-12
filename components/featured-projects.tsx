@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
+import Image from 'next/image'
 import projects from '@/data/projects.json'
 
 export function FeaturedProjects() {
@@ -57,12 +58,14 @@ export function FeaturedProjects() {
               className="group relative bg-card rounded-xl overflow-hidden border border-border hover:border-primary shadow-lg hover:shadow-2xl transition-all"
             >
               {/* Project Image */}
-              <div className="h-48 bg-gradient-to-br from-slate-200 to-slate-300 relative overflow-hidden">
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors flex items-center justify-center">
-                  <span className="text-foreground font-semibold opacity-50 group-hover:opacity-100 transition-opacity">
-                    {project.title}
-                  </span>
-                </div>
+              <div className="h-48 relative overflow-hidden bg-slate-200">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors" />
               </div>
 
               {/* Content */}
@@ -103,8 +106,6 @@ export function FeaturedProjects() {
                     whileTap={{ scale: 0.95 }}
                     className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors ml-auto"
                   >
-                    <span className="text-sm">Live Demo</span>
-                    <ExternalLink className="w-4 h-4" />
                   </motion.a>
                 </div>
               </div>

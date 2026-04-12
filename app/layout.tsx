@@ -11,21 +11,7 @@ export const metadata: Metadata = {
   description: '사용자 경험과 코드의 완벽한 조화를 추구하는 풀스택 개발자 이현규의 포트폴리오입니다.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/fhrhhhh.png',
   },
 }
 

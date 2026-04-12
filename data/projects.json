@@ -3,67 +3,55 @@
     {
       "id": 1,
       "title": "Mealgo",
-      "description": "AI 기반 식단 추천 서비스로 사용자의 영양 정보와 선호도를 분석하여 최적의 식단을 제안합니다.",
-      "image": "/projects/mealgo.jpg",
+      "description": "구글 오어스로그인으로 편한 학교 급식 메뉴 조회 및 시간표 조회 서비스",
+      "image": "/밀고 (1).png",
       "tags": ["React", "Node.js", "AI/ML", "MongoDB"],
-      "github": "https://github.com",
+      "github": "https://github.com/amisit-paradisum/mealgo-frontend",
       "link": "https://mealgo.com"
     },
     {
       "id": 2,
       "title": "너어디야",
-      "description": "위치 기반 친구 찾기 애플리케이션으로 실시간 위치 공유와 만남의 약속을 쉽게 관리할 수 있습니다.",
-      "image": "/projects/neoediya.jpg",
+      "description": "같이, 손쉽게 여행계획을 세우다(여행 일정 서비스)",
+      "image": "/너여ㅓ디야 프로필 (1).png",
       "tags": ["React Native", "Firebase", "Location API", "TypeScript"],
-      "github": "https://github.com",
+      "github": "https://github.com/pretendared/where_are_you-FE",
       "link": "https://neoediya.com"
     },
     {
       "id": 3,
       "title": "UnderMap",
-      "description": "지하철 역 주변 음식점, 카페, 편의점 등의 정보를 지도로 표시하고 추천합니다.",
-      "image": "/projects/undermap.jpg",
+      "description": "전국 지하상가의 모든 것을 담다 - 지하에서도 길을 잃지 않도록",
+      "image": "/undermap배ㅕㄱ (1).png",
       "tags": ["Next.js", "Mapbox", "Python", "PostgreSQL"],
-      "github": "https://github.com",
+      "github": "https://github.com/lhyunkyu/Undermap",
       "link": "https://undermap.com"
     }
   ],
   "other": [
     {
       "id": 4,
-      "title": "Portfolio Website",
-      "description": "반응형 포트폴리오 웹사이트",
+      "title": "KS (korail과 SR을 더하다)",
+      "description": "코레일과 SR통합 조회 서비스",
       "tags": ["Next.js", "Tailwind CSS"]
     },
     {
       "id": 5,
-      "title": "Weather App",
-      "description": "실시간 날씨 정보 애플리케이션",
+      "title": "대전도",
+      "description": "대전의 축제와 숙소 조회 서비스",
       "tags": ["React", "OpenWeather API"]
     },
     {
       "id": 6,
-      "title": "Chat Application",
-      "description": "실시간 메시지 채팅 앱",
-      "tags": ["Socket.io", "Express", "React"]
+      "title": "Dmm",
+      "description": "대마고 생활관리",
+      "tags": ["Express", "React"]
     },
     {
       "id": 7,
-      "title": "E-commerce Platform",
-      "description": "온라인 쇼핑 플랫폼",
-      "tags": ["Next.js", "Stripe", "PostgreSQL"]
-    },
-    {
-      "id": 8,
-      "title": "Todo List Manager",
-      "description": "효율적인 일정 관리 도구",
-      "tags": ["React", "Redux", "Firebase"]
-    },
-    {
-      "id": 9,
-      "title": "Video Streaming",
-      "description": "비디오 스트리밍 플랫폼",
-      "tags": ["React", "WebRTC", "Node.js"]
+      "title": "Nowbar",
+      "description": "맥북 노치를 더 활용가능하게",
+      "tags": ["swift"]
     }
   ],
   "values": [
